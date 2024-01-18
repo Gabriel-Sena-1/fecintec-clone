@@ -1,0 +1,194 @@
+/** CORES e TAMANHOS */
+
+.verde {
+    background-color: #169c28 !important;
+}
+
+.verdeEscuro {
+    background-color: #19882c !important;
+}
+
+.cinza {
+    background-color: #D9D9D9 !important;
+}
+
+.cinzaTabela {
+    background-color: #eeeeee !important;
+}
+
+.negrito {
+    font-weight: 600 !important;
+}
+
+.upperFont {
+    text-transform: uppercase !important;
+}
+
+.vermelhoStatus {
+    background-color: red !important;
+}
+
+.verdeStatus {
+    background-color: green !important;
+}
+
+.amareloStatus {
+    background-color: yellow !important;
+}
+
+.laranjaStatus {
+    background-color: rgb(255, 140, 0) !important;
+}
+
+/** ELEMENTOS */
+
+.alinhamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alinhamentoItem {
+    align-self: center;
+}
+
+.bloco {
+    padding: 20px !important;
+    width: 315px;
+    border-radius: 6px;
+    box-shadow: 0.4em 0.5em 0.7em -0.125em rgba(10, 10, 10, .3);
+    color: #4a4a4a;
+}
+
+.bolinhaStatus {
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.bolinhaMaior {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.listTrab:hover {
+    background-color: #169c28 !important;
+}
+
+.fonteFecintec {
+    font-weight: 600;
+    width: 15px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/** ESTILIZAÇÃO BULMA */
+
+.table td,
+.table th {
+    border: 0 !important;
+}
+
+/** ELEMENTOS HTML */
+
+main {
+    position: relative;
+    margin: 0 !important;
+}
+
+footer {
+    background-color: #8db692;
+    bottom: 0;
+    /*position:absolute;*/
+    padding-inline: 0;
+    width: 100vw;
+    margin-top: 20px;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/** Elementos por ID */
+
+#formLogin {
+    display: flex;
+    flex-direction: column;
+}
+
+#btnLogar {
+    font-weight: bold;
+    padding: 0 30%;
+    color: rgb(235, 235, 235);
+}
+
+#formLogin {
+    display: flex;
+    flex-direction: column;
+}
+
+#divLog {
+    display: flex;
+    flex-direction: column;
+}
+
+#fecintec {
+    text-align: center;
+    margin: 20px 0;
+    width: 42vh;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+#relatorio {
+    text-align: center;
+    margin: 20px 0;
+    width: 42vh;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#checkRemember {
+    font-size: 13px;
+}
+
+/**Nav Bar*/
+
+/* .navbar-burguer{
+    margin-left: 0!important;
+}
+
+.navbar .verde{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#navbarHeader{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+/* TODO: RESPONSAVIDADE */
+
+
+
+/** Imagem da Legenda */
+@media screen and (min-width: 800px) {
+
+    #imgLegenda {
+        width: 450px !important;
+    }
+
+}
+
+
+
+
+
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+/* Import sempre no final da pagina */

@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  web:
+    image: php:8.1-apache
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - "80:80"
+    command: "apt install php8.1-pdo php8.1-pdo-mysql"
+
+  db:
+    image: mysql:lts
+    volumes:
+      - ./data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: example
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: example
+    ports:
+      - "3306:3306"
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    links:
+      - db
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+

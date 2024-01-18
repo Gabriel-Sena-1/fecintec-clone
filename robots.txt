@@ -1,0 +1,16 @@
+# Sitemap: Colocar a URL do site e tirar o # Quando colocar
+
+User-agent: *
+
+Allow: /
+Allow: /View/
+Disallow: /Controller/
+Disallow: /relatorios/
+Disallow: /fpdf185/
+Disallow: /Model/
+Disallow: /Service/
+Disallow: /Util/
+Disallow: /querys/
+Disallow: /data/
+Disallow: /DB/
+

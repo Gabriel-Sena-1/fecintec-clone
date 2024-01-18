@@ -1,0 +1,115 @@
+/** CORES */
+
+.borderWhite{
+    border: 1px solid white;
+}
+
+/*! ALTERAR A COR DO CINZATABELA NO ESTILO.CSS */
+
+/** ELEMENTOS */
+
+.inputNota{
+    border: 0;
+    background-color: rgba(255, 255, 255, 0)!important;
+    box-shadow: none;
+    font-size: .90rem!important;
+    padding-bottom: 0;
+}
+
+.tdNota{
+    width: 50px;
+    padding-top: 0!important;
+}
+
+.notaTraco{
+    background-color: rgba(0, 0, 0, 0.267)!important;
+    margin: 0!important;
+}
+
+.legendaBorda{
+    border: 1px solid;
+    width: 300px;
+    padding: 15px;
+    margin-top: 11px;
+}
+
+.legendaTitulo{
+    background-color: #f5f5f5;
+    position: absolute;
+    width: auto;
+}
+
+.legendaElementos{
+    font-size: 15px;
+}
+
+.elementoFonte{
+    font-size: 20px!important;
+}
+
+/** ELEMENTOS BULMA */
+
+.input:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+
+/** ELEMENTOS HMTL */
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+/** ESTILIZAÇÃO POR ID */
+
+/*TODO: RESPONSAVIDADE */ 
+
+/** Legenda */
+@media screen and (min-width: 700px){
+
+    .legendaBorda{
+        width: 600px!important;
+    }
+
+    .legendaElementos{
+        font-size: 16px;
+    }
+
+    .elementoFonte{
+        font-size: 20px!important;
+        margin-top: 2px;
+    }
+    
+}
+
+@media screen and (max-width: 699px){
+
+    .legendaBorda{
+        width: 300px!important;
+    }
+
+    .legendaTitulo{
+        font-size: 15px!important;
+    }
+
+    .legendaElementos{
+        font-size: 16px;
+    }
+
+    .elementoFonte{
+        font-size: 20px!important;
+        margin-top: 2px;
+    }
+    
+    
+}
+
+
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"; /* Import sempre no final da pagina */

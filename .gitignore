@@ -1,0 +1,4 @@
+/vendor
+/sql
+.docker-compose.yml
+.infoDistribuicao.json
