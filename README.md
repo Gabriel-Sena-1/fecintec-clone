@@ -1,2 +1,3 @@
 # fecintec-clone
-foi um projeto em conjunto feito pra feira de ciencias da escola. a ideia é ter avaliadores que avaliam trabalhos na feira por meio desse projeto. o adm tem várias funcionalidades para manipular o avaliador.
+
+Sistema desenvolvido para a feira de ciências do IFMS - Campus Campo Grande. O requisito é que terão avaliadores que irão avaliar os trabalhos da feira por meio desse projeto. O administrador tem várias funcionalidades para manipular o avaliador e os trabalhos para que haja melhor andamento da feira de ciências.
