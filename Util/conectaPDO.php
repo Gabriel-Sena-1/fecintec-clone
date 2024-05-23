@@ -4,7 +4,7 @@
 const servername = "localhost";
 const username = "root"; // const username = "root";
 const password = ""; // const password = ""; // Depois eu tiro :D
-const data_base_name = "fecintec";  // const data_base_name = "fecintec";
+const data_base_name = "fecintec-clone";  // const data_base_name = "fecintec";
 
 
 function conecta()
